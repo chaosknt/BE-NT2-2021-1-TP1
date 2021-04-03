@@ -64,3 +64,12 @@
   .todo-container:first-of-type {
     border-top: 1px solid #333;
   }
+
+  .pointer{
+    cursor: pointer;
+  }
+  
+  .pointer:hover{
+    
+    background-color: lightblue;
+  }
