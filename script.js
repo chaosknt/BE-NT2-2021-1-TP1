@@ -82,6 +82,9 @@ const classNames = {
     erInput.setAttribute("id", idItem );
     erInput.className += classNames.TODO_CHECKBOX;    
     erInput.setAttribute("onclick", "updateItemCounts()");
+      
+    erInput.onchange = () => {alert("cambio!")} // Otra forma de agregar funciones a los elementos 
+      
     return erInput    
   }  
   //#endregion
